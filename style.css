@@ -37,33 +37,237 @@
     position: fixed;
   }
   .row{
-   
-    
-    margin-top: 5px;
+     margin-top: 5px;
   }
   a{
-    
+  
     font-weight: bold;
   }
+  
   h1{
     text-align: center;
     
   }
   .itop{
 position: absolute;
-left: 130px;
-top: 640px;
-background-color: darkgoldenrod;
+width: 180px;
+left: 80px;
+top: 680px;
+background-color: #ffc400;
+border-radius: 8px;
+font-weight: bold;
   }
   .itopc{
     position: absolute;
-    left: 520px;
-    top: 640px;
-    background-color: darkgoldenrod;
+    width: 180px;
+    left: 495px;
+    top: 680px;
+    background-color: #ffc400;
+    border-radius: 8px;
+    font-weight: bold;
       }
       .itopr{
         position: absolute;
-        left: 910px;
-        top: 640px;
-        background-color: darkgoldenrod;
+        width:180px;
+        left: 915px;
+        top: 680px;
+        background-color: #ffc400;
+        border-radius: 8px;
+        font-weight: bold;
           }
+
+ .nav-item .dropdown-menu {
+  background-color: rgb(255, 187, 0);
+ }          
+.Btn {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.Btn::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.Btn:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
+}
+
+.Btn1 {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.Btn1::before {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.Btn1:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.Btn1:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
+}
+.donation{
+ margin-bottom: 120px;
+}
+.donation,.row,.col{
+  border-color: black;
+
+  margin-left: 20px;
+}
+
+#tips,.row,col{
+  margin-bottom: 90px;
+}
+
+.card-title:hover {
+    background-color: yellow;
+    
+    
+  }
+  .Btndva {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #fff9f7;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  
+  .Btndva::before {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    left: -100%;
+    top: 0;
+    transition-duration: .3s;
+    mix-blend-mode: difference;
+  }
+  
+  .Btndva:hover::before {
+    transition-duration: .3s;
+    transform: translate(100%,-50%);
+    border-radius: 0;
+  }
+  
+  .Btndva:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }
+  
+  .containerlast{
+height: 650px;
+background-color: darkgray;
+  }
+  
+  ul{
+    list-style: none;
+    color: white;
+    
+  }
+ 
+  ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    
+  }
+  .containerlast .rowsearch{
+    margin-left: 520px;
+  }
+  .containerlast .rowsearch .row{
+    margin-top:100px;
+  }
+  .containerlast .row .col-6{
+    margin-top: 60px;
+    text-align: right;
+  }
+  .col-7{
+   margin-left: 260px;
+  }
+  .col-6 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  .col-5 .copyright{
+margin-top: 60px;
+  }
+  .rowsearch .col-7 img{
+width: 40px;
+margin-left: 18px;
+  }
+
+  a:hover {
+    color: yellow;
+  }
